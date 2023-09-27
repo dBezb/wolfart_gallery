@@ -1,7 +1,54 @@
+import { WolfArtGallery } from "./WolfArtGallery";
+
 function App() {
   return (
     <div>
-      <h1>Gallery soon will be here</h1>
+      <WolfArtGallery
+        photos={[
+          {
+            id: 1,
+            src: "./photos/1.jpg",
+            preview: "./photos/preview/1(1).jpg",
+            description: "Norway 1",
+          },
+          {
+            id: 2,
+            src: "./photos/2.jpg",
+            preview: "./photos/preview/2(1).jpg",
+            description: "Norway 2",
+          },
+          {
+            id: 3,
+            src: "./photos/3.jpg",
+            preview: "./photos/preview/3(1).jpg",
+            description: "Norway 3",
+          },
+          {
+            id: 4,
+            src: "./photos/4.jpg",
+            preview: "./photos/preview/4(1).jpg",
+            description: "Norway 4",
+          },
+          {
+            id: 5,
+            src: "./photos/5.jpg",
+            preview: "./photos/preview/5(1).jpg",
+            description: "Norway 5",
+          },
+          {
+            id: 6,
+            src: "./photos/6.jpg",
+            preview: "./photos/preview/6(1).jpg",
+            description: "Norway 6",
+          },
+          {
+            id: 7,
+            src: "./photos/7.jpg",
+            preview: "./photos/preview/7(1).jpg",
+            description: "Norway 7",
+          },
+        ]}
+      />
     </div>
   );
 }
