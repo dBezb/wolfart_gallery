@@ -26,10 +26,10 @@ export const WolfArtGallery: React.FC<WolfArtGalleryProps> = ({ photos }) => {
           prevPhoto={prevPhoto}
           activePhoto={activePhoto}
           nextPhoto={nextPhoto}
-          className={style.wolfArtMainPhoto}
+          className={style.wolfArtGalleryMainPhoto}
         />
         <Navigation
-          className={style.wolfArtNavigation}
+          className={style.wolfArtGalleryNavigation}
           disabledPrev={!prevPhoto}
           disableNext={!nextPhoto}
           onPrevClick={() => {
@@ -43,7 +43,7 @@ export const WolfArtGallery: React.FC<WolfArtGalleryProps> = ({ photos }) => {
       <PreviewGallery
         activePhotoIndex={indexActivePhoto}
         photos={photos}
-        className={style.wolfArtPreviewList}
+        className={style.wolfArtGalleryPreviewList}
       />
     </div>
   );
